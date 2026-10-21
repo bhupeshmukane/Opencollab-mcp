@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Changes merged since v0.6.1.
 
 ### Added
+- Optional `sort` parameter for `find_issues` (`newest` [default], `recently_updated`, `least_discussed`) mapped to GitHub search sorting ([#177](https://github.com/prakhar1605/Opencollab-mcp/issues/177)).
 - `find_issues` reports nullable `updated_days_ago` using the existing timestamp helper.
 - Pure `parse_github_url` helper for repository, issue and pull request URLs, with validation and no network calls ([#185](https://github.com/prakhar1605/Opencollab-mcp/issues/185)).
 - `--version` and `-V` command-line flags ([#51](https://github.com/prakhar1605/Opencollab-mcp/pull/51))
